@@ -1,0 +1,3 @@
+schema,model,transition,semantics,chiN_root,period_rg_at_bifurcation,nonlinear_refit
+bvk2-aba-comprehensive-validation-v1,scft,L/DIS,continuous_RPA_bifurcation,17.995811032242493,2.385747791407684,false
+bvk2-aba-comprehensive-validation-v1,bvk2,L/DIS,continuous_Gaussian_bifurcation,17.68884350910415,2.386984247460755,false

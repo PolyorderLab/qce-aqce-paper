@@ -1,0 +1,5 @@
+model,model_label,f_count,max_abs_spinodal_error,mean_abs_spinodal_error,max_abs_period_error,mean_abs_period_error,boundary_limited_count,all_converged
+exact_rpa,Full RPA kernel (BURP-TI Gaussian limit),81,0.0,0.0,0.0,0.0,0,true
+uneyama_doi,Literal nonlinear UD Hessian,81,0.15599703455828406,0.11507322663268604,0.04532454623831337,0.029518029098138127,0,true
+bvk1_bvk2,Nominal reduced kernel shared by BVK1 and BVK2,81,0.014562437234243223,0.00691995754253628,0.04532454623831337,0.02951802936439402,0,true
+ok,OK,81,1.1704098195193148e-15,2.881723845188455e-16,0.04532454623831337,0.02951802891278137,0,true

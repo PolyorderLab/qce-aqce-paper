@@ -1,0 +1,16 @@
+{
+  "cohort": "integer_chiN_36_50",
+  "fixed_row_count": 105,
+  "main_row_count": 630,
+  "models": [
+    "ohta_kawasaki",
+    "uneyama_doi",
+    "liu2019_opf",
+    "burp_ti",
+    "bvk2_fixed",
+    "bvk2"
+  ],
+  "schema": "bvk-strong-segregation-extension-v1",
+  "state_count": 105,
+  "status": "passed"
+}

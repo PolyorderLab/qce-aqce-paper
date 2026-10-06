@@ -1,0 +1,4 @@
+[deps]
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Polyorder = "7de1a322-a2ac-410e-a07d-299ee5a56611"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"

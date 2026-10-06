@@ -1,0 +1,7 @@
+schema,cohort,state_count,model,model_label,mean_abs_period_error_percent,mean_profile_rms
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,ohta_kawasaki,OK,22.057584987295538,0.12900406204412226
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,uneyama_doi,UD,14.966467453988624,0.018547289807699655
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,liu2019_opf,OPF,6.381166799830562,0.09943754418791283
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,burp_ti,BURP,18.833015932233092,0.018489734352508544
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,bvk2_fixed,PRM,5.392298722801199,0.01404880441425547
+bvk-strong-segregation-extension-v1,integer_chiN_36_50,105,bvk2,APRM,1.187399011804396,0.01636250981874579

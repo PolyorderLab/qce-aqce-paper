@@ -1,0 +1,15 @@
+{
+  "accepted_case_count": 3,
+  "case_count": 3,
+  "failures": [],
+  "max_aligned_native_profile_rms": 8.346170789095562e-05,
+  "max_profile_rms_metric_change": 4.3701621803643453e-05,
+  "max_relative_period_change": 4.800001428550971e-07,
+  "schema": "promoted-opf-resolution-audit-v1",
+  "status": "passed",
+  "tolerances": {
+    "aligned_native_profile_rms": 0.0001,
+    "profile_rms_metric_change": 0.0001,
+    "relative_period_change": 1e-06
+  }
+}

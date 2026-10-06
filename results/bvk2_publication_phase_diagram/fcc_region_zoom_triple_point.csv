@@ -1,0 +1,2 @@
+status,chiN_low,FCC_DIS_low,BCC_DIS_low,signed_width_low,chiN_high,FCC_DIS_high,FCC_BCC_high,signed_width_high,interpolation_fraction,chiN_estimate,fA_estimate,chiN_uncertainty,fA_uncertainty,derivation
+estimated_linear_pocket_closure,22.0,0.198303940082574,0.19828714086112667,-1.6799221447316715e-05,25.0,0.17819984723881058,0.1796488640714462,0.0014490168326356245,0.011460661384164478,22.034381984152493,0.1980735338820558,0.20466415220679862,0.0014215290392518684,linear interpolation of signed FCC pocket width from BCC/DIS-FCC/DIS at chiN_low to FCC/BCC-FCC/DIS at chiN_high

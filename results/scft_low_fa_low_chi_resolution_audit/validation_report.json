@@ -1,0 +1,27 @@
+{
+  "accepted_case_count": 6,
+  "case_count": 9,
+  "fA_0p20_diagnosis": {
+    "dominant_error_source": "contour_discretization",
+    "maximum_combined_vs_full_finer_profile_rms": 0.0005167389953210605,
+    "maximum_combined_vs_full_finer_relative_period_change": 0.0009168183863191848,
+    "maximum_ds0p005_vs_ds0p0025_profile_rms": 0.0008686056154339804,
+    "maximum_ds0p005_vs_ds0p0025_relative_period_change": 0.0008629743484291907,
+    "maximum_spatial_only_relative_period_change": 0.00012976498614203358,
+    "minimum_contour_only_relative_period_change": 0.0025715246564549377,
+    "recommended_reference_contour_step": 0.005
+  },
+  "failures": [
+    "f=0.20, chiN=25: solver=True, start=True, period=False, profile=False",
+    "f=0.20, chiN=26: solver=True, start=True, period=False, profile=True",
+    "f=0.20, chiN=27: solver=True, start=True, period=False, profile=True"
+  ],
+  "maximum_profile_rms": 0.0015168376008969228,
+  "maximum_relative_period_change": 0.0036728069077062164,
+  "maximum_two_start_period_spread": 6.520810627863582e-05,
+  "period_tolerance": 0.0015,
+  "profile_rms_tolerance": 0.001,
+  "schema": "scft-low-fa-resolution-audit-v1",
+  "status": "failed",
+  "two_start_period_spread_tolerance": 0.0005
+}

@@ -1,0 +1,11 @@
+blas_threads = 1
+contour_step = 0.005
+cpu_model = "Intel(R) Xeon(R) Gold 6258R CPU @ 2.70GHz"
+date = "2026-07-29"
+dfmmontecarlo_version = "0.1.0"
+fftw_threads = 1
+julia_threads = 1
+julia_version = "1.12.6"
+polyorder_version = "0.31.1"
+rng_seed = 7301
+schema = "bvk2-scft-fixedcell-performance-v1"

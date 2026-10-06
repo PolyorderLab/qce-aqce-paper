@@ -1,0 +1,61 @@
+{
+  "canonical_backup": "results/scft_low_fa_low_chi_resolution_audit/canonical_backup_before_promotion",
+  "case_hashes": {
+    "f0.2_chiN25": {
+      "native_profiles.csv": "d955a46870af043f42240139066ab029010b77e324b567a114c0aa4a6b01ccb6",
+      "profiles.csv": "30d3ca2d927d090bc5eab7fdf2d35b09854c3f2c42ac584e47a7687223adf6e2",
+      "summary.csv": "6318f98d550e6bf254cfc88cece91111a76c010bb872f20c55ed0269430a0265"
+    },
+    "f0.2_chiN26": {
+      "native_profiles.csv": "f99ab1ceb6889507afdb28b4224ca7af81c45d09eb57610b7a756ba9295bd0ce",
+      "profiles.csv": "68278cad709a2632df604977581c2f24e7310a07f2996aa4a4f4fbe0c183fe6c",
+      "summary.csv": "d9823e34117ebf07a6f4779f320c450598f6cf84e93684a8b3bf4a920c24e13d"
+    },
+    "f0.2_chiN27": {
+      "native_profiles.csv": "ff433a8e320b98a847a3bfd025065be991ff4c1b332ced02e53758b0659d85d0",
+      "profiles.csv": "d56b8f1afb6bfd8797aefa248de6db805a7c1d7eefb6a0e67f9c71efe72e1e43",
+      "summary.csv": "a32b6890770fd8a70c975b92d6087c1901b1d501aba09b9342d05726ae42727a"
+    }
+  },
+  "cases": [
+    "f0.2_chiN25",
+    "f0.2_chiN26",
+    "f0.2_chiN27"
+  ],
+  "refreshed": {
+    "f0.2_chiN25": {
+      "opf_mapping_residual": 0.079490481240574,
+      "opf_period_rg": 2.8833135996581065,
+      "opf_profile_rms": 0.14328045347060794,
+      "scft_period_rg": 3.3772815752408936
+    },
+    "f0.2_chiN26": {
+      "opf_mapping_residual": 0.12008445207802092,
+      "opf_period_rg": 2.946652002933736,
+      "opf_profile_rms": 0.17031509340352502,
+      "scft_period_rg": 3.6724051029251457
+    },
+    "f0.2_chiN27": {
+      "opf_mapping_residual": 0.13949728434375078,
+      "opf_period_rg": 3.01554324852131,
+      "opf_profile_rms": 0.16957045887248262,
+      "scft_period_rg": 3.8282917974818926
+    }
+  },
+  "schema": "scft-low-fa-promotion-v1",
+  "source_hashes": {
+    "f0.2_chiN25": {
+      "audit_profile": "03a631ad81907ce951f6fd4127cb27bde4897f21ad77e2f9e997e7eba02bf999",
+      "audit_root": "8fdea2669504538e81e29023e0b661bc4f3344784cd8171c0eada62a2c7f5c76"
+    },
+    "f0.2_chiN26": {
+      "audit_profile": "6ba6fae58d2f610b7cf4194f82a245dbea8ecc40677e6be7f866ce441979231c",
+      "audit_root": "e35d37ec3014b1eac79d818a49a983da30edd5420efb7394e8415f87134b28d9"
+    },
+    "f0.2_chiN27": {
+      "audit_profile": "77c8071be8aed6e0489d91390b0c6ad2e23c2c681325b49bf585b12c901c9ae2",
+      "audit_root": "003f56302eb60832c86c056b4f6b13e2b3b3e6661a5fb964fc9c7086144d5feb"
+    }
+  },
+  "status": "promoted"
+}

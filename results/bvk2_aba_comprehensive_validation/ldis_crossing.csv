@@ -1,0 +1,13 @@
+schema,chiN,model,delta_free_energy,amplitude,period_rg,cell_stress,field_status,cell_status
+bvk2-aba-comprehensive-validation-v1,18.25,bvk2,-0.003359884286734599,0.3068322725938084,2.414072302919243,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,18.25,scft,-0.0008726754202088571,0.23403258072815308,2.400522652934947,4.212737167071453e-6,Polyorder.Successful(),Polyorder.Successful()
+bvk2-aba-comprehensive-validation-v1,18.5,bvk2,-0.006960024190358882,0.3660135712091078,2.425509297237437,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,18.5,scft,-0.0033815509530832344,0.3231350432412065,2.4148571158256056,4.674684194537989e-8,Polyorder.Successful(),Polyorder.Successful()
+bvk2-aba-comprehensive-validation-v1,19.0,bvk2,-0.01788255263310471,0.4575591893784081,2.4470453069424725,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,19.0,scft,-0.01294126603206358,0.440280507724499,2.4421172296438245,6.657072940115681e-7,Polyorder.Successful(),Polyorder.Successful()
+bvk2-aba-comprehensive-validation-v1,20.0,bvk2,-0.05364313424408416,0.5854130015473114,2.487060653815313,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,20.0,scft,-0.04804643377955209,0.5828129379094357,2.492215921933108,8.680468692995168e-6,Polyorder.Successful(),Polyorder.Successful()
+bvk2-aba-comprehensive-validation-v1,21.0,bvk2,-0.10609809451239914,0.673728269088771,2.523363099826242,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,21.0,scft,-0.10109613016664909,0.6726371921584057,2.537392697474096,5.960713404863031e-7,Polyorder.Successful(),Polyorder.Successful()
+bvk2-aba-comprehensive-validation-v1,22.0,bvk2,-0.17315041082839086,0.7387772124306413,2.557203397790704,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,22.0,scft,-0.16894736522867326,0.7355510200050712,2.578623392909565,1.445841295363911e-7,Polyorder.Successful(),Polyorder.Successful()

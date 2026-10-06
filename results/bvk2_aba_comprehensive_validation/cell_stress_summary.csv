@@ -1,0 +1,11 @@
+schema,case_id,model,optimum_period_rg,internal_minimum,stress_bracket,field_gate,acceptance_note,accepted
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN30,uneyama_doi,2.4492378292747072,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN30,burp_ti,2.4107180109081026,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN30,bvk1,2.8222571085503003,true,true,true,finite_mode_energy_and_cell_landscape,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN30,bvk2,2.768517069043601,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN30,scft,2.8222571085503,true,true,true,polyorder_fixed_cell_solver_converged,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN40,uneyama_doi,2.5050684991988312,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN40,burp_ti,2.477453640912118,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN40,bvk1,2.9467353334004462,true,true,true,finite_mode_energy_and_cell_landscape,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN40,bvk2,2.9558308030611076,true,true,true,solver_converged_in_central_period_window,true
+bvk2-aba-comprehensive-validation-v2,f0.50_chiN40,scft,3.0228806841815703,true,true,true,polyorder_fixed_cell_solver_converged,true

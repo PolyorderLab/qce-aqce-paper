@@ -1,0 +1,16 @@
+blas_threads = 1
+cpu_affinity_tool = "taskset"
+cpu_model = "Intel(R) Xeon(R) Gold 6258R CPU @ 2.70GHz"
+date = "2026-08-07"
+fftw_threads = 1
+git_commit = "860db21d9f6598da3b2b72b29503f99a7d9af481"
+git_worktree_dirty = true
+julia_threads = 1
+julia_version = "1.12.6"
+logical_cpu_count = 112
+manifest_sha256 = "7761021c4ac919980d11cdfac7829ea9dc89c10a38f8a91c23ce7fb7151eef78"
+pinned_cpu = 12
+repetitions = 3
+schema = "bvk2-scft-controlled-cost-benchmark-v1"
+timing_tool = "/usr/bin/time"
+total_memory_bytes = 0xbca193f000

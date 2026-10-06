@@ -1,0 +1,30 @@
+model = "BVK2"
+formula_schema = "bvk2-rpa-eta-v1"
+discretization_schema = "central_eta_forward_edge_exact_v1"
+field_solver_schema = "mean_logit_cosine_lbfgs_residual_newton_v2"
+period_solver_schema = "analytic_log_period_cell_stress_root_v4"
+
+c2 = 0.16
+selection_resolution_nx = 128
+selection_rule = "minimum mean exact training loss among candidates passing every field, identity, cell-root, bracket-width, and local-minimum gate"
+training_mean_exact_loss = 0.5763165774131176
+training_worst_exact_loss = 0.8526508210669173
+runner_up_c2 = 0.12
+runner_up_mean_exact_loss = 0.6042682422244352
+rejected_finalist_c2 = 0.24
+rejected_finalist_reason = "failed promoted-grid physical stationarity at f=0.5, chiN=25"
+
+gradient_tolerance = 1.0e-10
+force_l2_tolerance = 1.0e-5
+force_maxabs_tolerance = 2.0e-5
+cell_stress_tolerance = 1.0e-6
+log_period_tolerance = 1.0e-5
+
+training_rows = "stage2_rows.csv"
+training_ranking = "stage2_ranking.csv"
+holdout_rows = "../bvk2_c2_calibration_holdout_nx128/stage2_rows.csv"
+resolution_nx64_rows = "../bvk2_c2_resolution_audit_final_nx64/stage2_rows.csv"
+
+resolution_policy = "nx=64 is adequate for the calibrated 1D lamellae under the predeclared 0.5% period and 0.002 profile-RMS thresholds; multidimensional production grids remain morphology- and cell-size-dependent and must satisfy dx/Rg < 0.1 plus refinement audits"
+holdout_warning = "near-ODT f=0.5, chiN=12 has 2.9587% period error and 0.02287 profile RMS; retained as an honest constitutive validation discrepancy, not used for retuning"
+phase_boundary_status = "not yet accepted; nonlamellar field/cell/stability gates remain pending"

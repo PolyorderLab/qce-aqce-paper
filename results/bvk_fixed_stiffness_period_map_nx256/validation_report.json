@@ -1,0 +1,14 @@
+{
+  "common_cohort_mean_abs_period_error_percent": 3.6164403888156227,
+  "common_cohort_mean_profile_rms": 0.013103018273959008,
+  "common_cohort_state_count": 133,
+  "maximum_abs_cell_stress": 6.400121819183369e-07,
+  "maximum_projected_force_maxabs": 1.9541476245033215e-05,
+  "maximum_projected_force_rms": 7.176668025188679e-06,
+  "mean_abs_period_error_percent": 3.643017571720588,
+  "mean_profile_rms": 0.012820027744768044,
+  "profile_row_count": 149504,
+  "schema": "bvk2-fixed-stiffness-period-map-v1",
+  "state_count": 146,
+  "status": "passed"
+}

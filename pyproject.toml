@@ -1,0 +1,17 @@
+[project]
+name = "dfm-montecarlo-pyscripts"
+version = "0.1.0"
+description = "Python helper scripts (phase-diagram assembly/plotting, tests) for the DFM MonteCarlo BVK2 pipeline. Not a package -- just a uv-managed environment so scripts run without `uv run --with ...`."
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "mpltex>=0.7",
+    "numpy",
+    "pillow",
+    "pytest",
+]
+
+# Environment-only project: there is no importable `dfm_montecarlo_pyscripts`
+# package to build/install; `uv sync` just materialises `.venv` with the deps.
+[tool.uv]
+package = false

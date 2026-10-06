@@ -1,0 +1,2 @@
+schema,claim_kind,chiN,models,scientific_status,decision,reason,source
+bvk2-aba-ldis-point-decision-v1,ordered_branch_point,21.0,scft;bvk2,accepted,accept,"matched finite ordered branches; field, cell, stress, and finiteness gates pass",ldis_crossing.csv

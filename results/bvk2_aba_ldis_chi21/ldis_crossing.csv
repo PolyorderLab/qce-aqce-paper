@@ -1,0 +1,3 @@
+schema,chiN,model,delta_free_energy,amplitude,period_rg,cell_stress,field_status,cell_status
+bvk2-aba-comprehensive-validation-v1,21.0,bvk2,-0.10609809451239914,0.673728269088771,2.523363099826242,NaN,true,true
+bvk2-aba-comprehensive-validation-v1,21.0,scft,-0.10109613016664909,0.6726371921584057,2.537392697474096,5.960713404863031e-7,Polyorder.Successful(),Polyorder.Successful()

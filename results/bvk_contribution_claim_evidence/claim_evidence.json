@@ -1,0 +1,4205 @@
+{
+  "claims": [
+    {
+      "claim_id": "aba7.adaptive_period_wins",
+      "cohort_id": "aba_7",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "sources": [
+        "results/bvk2_aba_comprehensive_validation/benchmark_summary.csv",
+        "results/bvk2_aba_fixed_stiffness_validation/summary.csv"
+      ],
+      "state_count": 7,
+      "unit": "count",
+      "value": 7
+    },
+    {
+      "claim_id": "aba7.bvk2.period",
+      "cohort_id": "aba_7",
+      "evidence_class": "production_transfer",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/bvk2_aba_comprehensive_validation/benchmark_summary.csv"
+      ],
+      "state_count": 7,
+      "unit": "percent",
+      "value": 1.5701681504838367
+    },
+    {
+      "claim_id": "aba7.bvk2.profile",
+      "cohort_id": "aba_7",
+      "evidence_class": "production_transfer",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2",
+      "sources": [
+        "results/bvk2_aba_comprehensive_validation/benchmark_summary.csv"
+      ],
+      "state_count": 7,
+      "unit": "fraction",
+      "value": 0.0062082230125418076
+    },
+    {
+      "claim_id": "aba7.bvk2_fixed.period",
+      "cohort_id": "aba_7",
+      "evidence_class": "production_control",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk2_aba_fixed_stiffness_validation/summary.csv"
+      ],
+      "state_count": 7,
+      "unit": "percent",
+      "value": 3.83118255562417
+    },
+    {
+      "claim_id": "aba7.bvk2_fixed.profile",
+      "cohort_id": "aba_7",
+      "evidence_class": "production_control",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk2_aba_fixed_stiffness_validation/summary.csv"
+      ],
+      "state_count": 7,
+      "unit": "fraction",
+      "value": 0.022672651655082292
+    },
+    {
+      "claim_id": "cell_stress.f0.35_chiN30.bvk2.period_error",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "absolute_period_error",
+      "model": "bvk2",
+      "qualifier": "f0.35_chiN30",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "percent",
+      "value": 0.7108967061298377
+    },
+    {
+      "claim_id": "cell_stress.f0.35_chiN30.bvk2.period_ratio",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "period_ratio_to_scft",
+      "model": "bvk2",
+      "qualifier": "f0.35_chiN30",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "ratio",
+      "value": 0.9928910329387016
+    },
+    {
+      "claim_id": "cell_stress.f0.35_chiN30.bvk2_fixed.period_error",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "absolute_period_error",
+      "model": "bvk2_fixed",
+      "qualifier": "f0.35_chiN30",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "percent",
+      "value": 4.266360206639785
+    },
+    {
+      "claim_id": "cell_stress.f0.35_chiN30.bvk2_fixed.period_ratio",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "period_ratio_to_scft",
+      "model": "bvk2_fixed",
+      "qualifier": "f0.35_chiN30",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "ratio",
+      "value": 0.9573363979336021
+    },
+    {
+      "claim_id": "cell_stress.f0.5_chiN20.bvk2.period_error",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "absolute_period_error",
+      "model": "bvk2",
+      "qualifier": "f0.5_chiN20",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "percent",
+      "value": 0.193663096227481
+    },
+    {
+      "claim_id": "cell_stress.f0.5_chiN20.bvk2.period_ratio",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "period_ratio_to_scft",
+      "model": "bvk2",
+      "qualifier": "f0.5_chiN20",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "ratio",
+      "value": 1.0019366309622748
+    },
+    {
+      "claim_id": "cell_stress.f0.5_chiN20.bvk2_fixed.period_error",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "absolute_period_error",
+      "model": "bvk2_fixed",
+      "qualifier": "f0.5_chiN20",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "percent",
+      "value": 2.6550488033473596
+    },
+    {
+      "claim_id": "cell_stress.f0.5_chiN20.bvk2_fixed.period_ratio",
+      "cohort_id": "cell_stress_2_state",
+      "evidence_class": "production_mechanism",
+      "metric": "period_ratio_to_scft",
+      "model": "bvk2_fixed",
+      "qualifier": "f0.5_chiN20",
+      "sources": [
+        "results/lamellar_cell_stress_mechanism/summary.csv"
+      ],
+      "state_count": 1,
+      "unit": "ratio",
+      "value": 0.9734495119665264
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.00.period",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.00",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 3.5106371838803043
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.00.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.00",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.01417812121394373
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.04.period",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.04",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 2.666294461980336
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.04.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.04",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.010307228174783729
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.16.period",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.16",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 1.415778904384823
+    },
+    {
+      "claim_id": "coefficient_diagnostic.common133.c2_0.16.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.16",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.016711512237123256
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.00.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.00",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 3.5451191653738556
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.00.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.00",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.013744997660387916
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.04.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.04",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 2.811826195880779
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.04.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.04",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.010963939948162863
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.06.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.06",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 2.550011315703773
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.06.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.06",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.01166767113370193
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.08.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.08",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 2.327914247163444
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.08.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.08",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.012777154083664038
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.10.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.10",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 2.1368306666374832
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.10.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.10",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.014106982546559085
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.12.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.12",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 1.9738200267043173
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.12.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.12",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.015519589403517097
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.16.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.16",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 1.7299920899117367
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.16.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.16",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.018251913271985592
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.20.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.20",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 1.664295995877042
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.20.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.20",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.02057048489207788
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.24.period",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.24",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 1.8036305105632182
+    },
+    {
+      "claim_id": "coefficient_diagnostic.full146.c2_0.24.profile",
+      "cohort_id": "coefficient_diagnostic_full_146",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_c2_0.24",
+      "qualifier": "nx=64 historical oracle diagnostic; not a production ranking",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.022456051284747407
+    },
+    {
+      "claim_id": "common133.burp_ti.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "burp_ti",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 16.5299542982149
+    },
+    {
+      "claim_id": "common133.burp_ti.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "burp_ti",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.022361564617079274
+    },
+    {
+      "claim_id": "common133.bvk2.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 1.463605037823676
+    },
+    {
+      "claim_id": "common133.bvk2.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.017235322541175477
+    },
+    {
+      "claim_id": "common133.bvk2_fixed.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production_control",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 3.6164403888156227
+    },
+    {
+      "claim_id": "common133.bvk2_fixed.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production_control",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.013103018273959008
+    },
+    {
+      "claim_id": "common133.liu2019_opf.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "liu2019_opf",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 4.309027380881481
+    },
+    {
+      "claim_id": "common133.liu2019_opf.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "liu2019_opf",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.057890670213669795
+    },
+    {
+      "claim_id": "common133.ohta_kawasaki.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "ohta_kawasaki",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 15.97824995256497
+    },
+    {
+      "claim_id": "common133.ohta_kawasaki.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "ohta_kawasaki",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.1049193104983019
+    },
+    {
+      "claim_id": "common133.uneyama_doi.period",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "uneyama_doi",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "percent",
+      "value": 11.183954025075064
+    },
+    {
+      "claim_id": "common133.uneyama_doi.profile",
+      "cohort_id": "common_133",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "uneyama_doi",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 133,
+      "unit": "fraction",
+      "value": 0.04536149356528059
+    },
+    {
+      "claim_id": "full_146_bvk2.period",
+      "cohort_id": "full_146_bvk2",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 1.7719077076960121
+    },
+    {
+      "claim_id": "full_146_bvk2.profile",
+      "cohort_id": "full_146_bvk2",
+      "evidence_class": "production",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.018784872703090053
+    },
+    {
+      "claim_id": "full_146_fixed.period",
+      "cohort_id": "full_146_fixed",
+      "evidence_class": "production_control",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 146,
+      "unit": "percent",
+      "value": 3.6430175717205873
+    },
+    {
+      "claim_id": "full_146_fixed.profile",
+      "cohort_id": "full_146_fixed",
+      "evidence_class": "production_control",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 146,
+      "unit": "fraction",
+      "value": 0.012820027744768044
+    },
+    {
+      "claim_id": "held_out_143.period",
+      "cohort_id": "held_out_143",
+      "evidence_class": "production_held_out",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 143,
+      "unit": "percent",
+      "value": 1.7930640298158083
+    },
+    {
+      "claim_id": "held_out_143.profile",
+      "cohort_id": "held_out_143",
+      "evidence_class": "production_held_out",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 143,
+      "unit": "fraction",
+      "value": 0.018946176692923367
+    },
+    {
+      "claim_id": "high_chiN.adaptive.period",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv"
+      ],
+      "state_count": 42,
+      "unit": "percent",
+      "value": 1.9940519304072608
+    },
+    {
+      "claim_id": "high_chiN.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 42,
+      "unit": "count",
+      "value": 37
+    },
+    {
+      "claim_id": "high_chiN.fA_0.20.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.20",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 1
+    },
+    {
+      "claim_id": "high_chiN.fA_0.25.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.25",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fA_0.30.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.30",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fA_0.35.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.35",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fA_0.40.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.40",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fA_0.45.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.45",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fA_0.50.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "f_A=0.50",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 6,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "high_chiN.fixed.period",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 42,
+      "unit": "percent",
+      "value": 4.952013096365367
+    },
+    {
+      "claim_id": "high_chiN.state_count",
+      "cohort_id": "high_chiN_30_35",
+      "evidence_class": "production_control",
+      "metric": "matched_state_count",
+      "sources": [
+        "results/liu2019_stress_free_period_map/summary.csv",
+        "results/bvk_fixed_stiffness_period_map_nx256/summary.csv"
+      ],
+      "state_count": 42,
+      "unit": "count",
+      "value": 42
+    },
+    {
+      "claim_id": "high_chiN_diagnostic.adaptive.period",
+      "cohort_id": "high_chiN_30_35_diagnostic",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.16",
+      "qualifier": "nx=64 oracle diagnostic",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 42,
+      "unit": "percent",
+      "value": 1.8960290919283738
+    },
+    {
+      "claim_id": "high_chiN_diagnostic.adaptive_period_wins",
+      "cohort_id": "high_chiN_30_35_diagnostic",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "adaptive_lower_absolute_period_error_count",
+      "qualifier": "nx=64 c2=0 versus c2=0.16 oracle diagnostic",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 42,
+      "unit": "count",
+      "value": 36
+    },
+    {
+      "claim_id": "high_chiN_diagnostic.fixed.period",
+      "cohort_id": "high_chiN_30_35_diagnostic",
+      "evidence_class": "oracle_diagnostic",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_c2_0.00",
+      "qualifier": "nx=64 oracle diagnostic",
+      "sources": [
+        "results/bvk2_global_c2_refit/stage2_rows.csv"
+      ],
+      "state_count": 42,
+      "unit": "percent",
+      "value": 4.750452564410282
+    },
+    {
+      "claim_id": "phase149.accepted_root_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "production_phase_boundary",
+      "metric": "accepted_boundary_root_count",
+      "model": "bvk2",
+      "qualifier": "accepted boundary roots; no adaptive-stiffness phase ablation",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 149
+    },
+    {
+      "claim_id": "phase149.fcc_boundary_family_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "topology_inference",
+      "metric": "fcc_boundary_family_count",
+      "model": "bvk2",
+      "qualifier": "FCC pocket support inferred from accepted AQCE roots and the SCFT reference graph; not adaptive-stiffness causality",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv",
+        "results/bvk2_publication_phase_diagram/scft_reference_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 2
+    },
+    {
+      "claim_id": "phase149.fcc_boundary_root_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "production_phase_boundary",
+      "metric": "fcc_boundary_root_count",
+      "model": "bvk2",
+      "qualifier": "roots on FCC/BCC and FCC/DIS boundary families",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 12
+    },
+    {
+      "claim_id": "phase149.o70_boundary_family_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "topology_inference",
+      "metric": "o70_boundary_family_count",
+      "model": "bvk2",
+      "qualifier": "inferred from the accepted transition manifest; not adaptive-stiffness causality",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv",
+        "results/bvk2_publication_phase_diagram/scft_reference_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 3
+    },
+    {
+      "claim_id": "phase149.o70_boundary_root_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "production_phase_boundary",
+      "metric": "o70_boundary_root_count",
+      "model": "bvk2",
+      "qualifier": "roots on C/O70, G/O70, and O70/L boundary families",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 31
+    },
+    {
+      "claim_id": "phase149.ordered_phase_count",
+      "cohort_id": "phase_boundary_149",
+      "evidence_class": "topology_inference",
+      "metric": "ordered_phase_count",
+      "model": "bvk2",
+      "qualifier": "common six-ordered-phase set plus DIS inferred from the AQCE and SCFT boundary graphs; not adaptive-stiffness causality",
+      "sources": [
+        "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv",
+        "results/bvk2_publication_phase_diagram/scft_reference_boundaries.csv"
+      ],
+      "state_count": 149,
+      "unit": "count",
+      "value": 6
+    },
+    {
+      "claim_id": "strong105.burp_ti.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_absolute_period_error",
+      "model": "burp_ti",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 18.8330159322331
+    },
+    {
+      "claim_id": "strong105.burp_ti.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_aligned_profile_rms",
+      "model": "burp_ti",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.01848973435250854
+    },
+    {
+      "claim_id": "strong105.bvk2.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 1.1873990118043962
+    },
+    {
+      "claim_id": "strong105.bvk2.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.01636250981874579
+    },
+    {
+      "claim_id": "strong105.bvk2_fixed.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_control",
+      "metric": "mean_absolute_period_error",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_strong_segregation_extension/fixed_stiffness_summary.csv"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 5.392298722801198
+    },
+    {
+      "claim_id": "strong105.bvk2_fixed.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_control",
+      "metric": "mean_aligned_profile_rms",
+      "model": "bvk2_fixed",
+      "sources": [
+        "results/bvk_strong_segregation_extension/fixed_stiffness_summary.csv"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.01404880441425547
+    },
+    {
+      "claim_id": "strong105.liu2019_opf.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_absolute_period_error",
+      "model": "liu2019_opf",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 6.381166799830562
+    },
+    {
+      "claim_id": "strong105.liu2019_opf.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_aligned_profile_rms",
+      "model": "liu2019_opf",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.09943754418791283
+    },
+    {
+      "claim_id": "strong105.ohta_kawasaki.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_absolute_period_error",
+      "model": "ohta_kawasaki",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 22.057584987295538
+    },
+    {
+      "claim_id": "strong105.ohta_kawasaki.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_aligned_profile_rms",
+      "model": "ohta_kawasaki",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.12900406204412226
+    },
+    {
+      "claim_id": "strong105.state_count",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "matched_state_count",
+      "qualifier": "seven compositions at every integer chiN from 36 through 50",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "count",
+      "value": 105
+    },
+    {
+      "claim_id": "strong105.uneyama_doi.period",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_absolute_period_error",
+      "model": "uneyama_doi",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "percent",
+      "value": 14.966467453988628
+    },
+    {
+      "claim_id": "strong105.uneyama_doi.profile",
+      "cohort_id": "strong_segregation_105",
+      "evidence_class": "production_strong_segregation",
+      "metric": "mean_aligned_profile_rms",
+      "model": "uneyama_doi",
+      "sources": [
+        "results/bvk_strong_segregation_extension/summary.csv",
+        "results/bvk_strong_segregation_extension/aggregate.csv",
+        "results/bvk_strong_segregation_extension/validation_report.json"
+      ],
+      "state_count": 105,
+      "unit": "fraction",
+      "value": 0.018547289807699655
+    }
+  ],
+  "cohorts": {
+    "aba_7": {
+      "chiN": [
+        20.0,
+        22.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0,
+        45.0
+      ],
+      "f_A": 0.5,
+      "permitted_evidence_classes": [
+        "production_control",
+        "production_transfer"
+      ],
+      "state_count": 7
+    },
+    "cell_stress_2_state": {
+      "membership": [
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "production_mechanism"
+      ],
+      "resolution_nx": 256,
+      "state_count": 2
+    },
+    "coefficient_diagnostic_full_146": {
+      "candidate_c2": [
+        0.0,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.16,
+        0.2,
+        0.24
+      ],
+      "evidence_class": "oracle_diagnostic",
+      "permitted_evidence_classes": [
+        "oracle_diagnostic"
+      ],
+      "resolution_nx": 64,
+      "state_count_per_candidate": 146
+    },
+    "common_133": {
+      "definition": "Exact accepted-state intersection of the five production comparator models.",
+      "membership": [
+        {
+          "chiN": 30.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "oracle_diagnostic",
+        "production",
+        "production_control"
+      ],
+      "state_count": 133
+    },
+    "full_146_bvk2": {
+      "membership": [
+        {
+          "chiN": 25.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 11.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 11.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "production"
+      ],
+      "state_count": 146
+    },
+    "full_146_fixed": {
+      "membership": [
+        {
+          "chiN": 25.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 11.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 11.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 12.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 13.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 14.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 15.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 16.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 17.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 18.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 19.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 20.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 21.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 22.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 23.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 24.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 25.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 26.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 27.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 28.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 29.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "production_control"
+      ],
+      "state_count": 146
+    },
+    "held_out_143": {
+      "definition": "Complete accepted AQCE map excluding the three calibration states represented in that map.",
+      "excluded_calibration_case_ids": [
+        "f0.35_chiN30",
+        "f0.5_chiN15",
+        "f0.5_chiN25"
+      ],
+      "membership_case_ids": [
+        "f0.25_chiN19",
+        "f0.25_chiN20",
+        "f0.25_chiN21",
+        "f0.25_chiN22",
+        "f0.25_chiN23",
+        "f0.25_chiN24",
+        "f0.25_chiN25",
+        "f0.25_chiN26",
+        "f0.25_chiN27",
+        "f0.25_chiN28",
+        "f0.25_chiN29",
+        "f0.25_chiN30",
+        "f0.25_chiN31",
+        "f0.25_chiN32",
+        "f0.25_chiN33",
+        "f0.25_chiN34",
+        "f0.25_chiN35",
+        "f0.2_chiN25",
+        "f0.2_chiN26",
+        "f0.2_chiN27",
+        "f0.2_chiN28",
+        "f0.2_chiN29",
+        "f0.2_chiN30",
+        "f0.2_chiN31",
+        "f0.2_chiN32",
+        "f0.2_chiN33",
+        "f0.2_chiN34",
+        "f0.2_chiN35",
+        "f0.35_chiN13",
+        "f0.35_chiN14",
+        "f0.35_chiN15",
+        "f0.35_chiN16",
+        "f0.35_chiN17",
+        "f0.35_chiN18",
+        "f0.35_chiN19",
+        "f0.35_chiN20",
+        "f0.35_chiN21",
+        "f0.35_chiN22",
+        "f0.35_chiN23",
+        "f0.35_chiN24",
+        "f0.35_chiN25",
+        "f0.35_chiN26",
+        "f0.35_chiN27",
+        "f0.35_chiN28",
+        "f0.35_chiN29",
+        "f0.35_chiN31",
+        "f0.35_chiN32",
+        "f0.35_chiN33",
+        "f0.35_chiN34",
+        "f0.35_chiN35",
+        "f0.3_chiN15",
+        "f0.3_chiN16",
+        "f0.3_chiN17",
+        "f0.3_chiN18",
+        "f0.3_chiN19",
+        "f0.3_chiN20",
+        "f0.3_chiN21",
+        "f0.3_chiN22",
+        "f0.3_chiN23",
+        "f0.3_chiN24",
+        "f0.3_chiN25",
+        "f0.3_chiN26",
+        "f0.3_chiN27",
+        "f0.3_chiN28",
+        "f0.3_chiN29",
+        "f0.3_chiN30",
+        "f0.3_chiN31",
+        "f0.3_chiN32",
+        "f0.3_chiN33",
+        "f0.3_chiN34",
+        "f0.3_chiN35",
+        "f0.45_chiN11",
+        "f0.45_chiN12",
+        "f0.45_chiN13",
+        "f0.45_chiN14",
+        "f0.45_chiN15",
+        "f0.45_chiN16",
+        "f0.45_chiN17",
+        "f0.45_chiN18",
+        "f0.45_chiN19",
+        "f0.45_chiN20",
+        "f0.45_chiN21",
+        "f0.45_chiN22",
+        "f0.45_chiN23",
+        "f0.45_chiN24",
+        "f0.45_chiN25",
+        "f0.45_chiN26",
+        "f0.45_chiN27",
+        "f0.45_chiN28",
+        "f0.45_chiN29",
+        "f0.45_chiN30",
+        "f0.45_chiN31",
+        "f0.45_chiN32",
+        "f0.45_chiN33",
+        "f0.45_chiN34",
+        "f0.45_chiN35",
+        "f0.4_chiN12",
+        "f0.4_chiN13",
+        "f0.4_chiN14",
+        "f0.4_chiN15",
+        "f0.4_chiN16",
+        "f0.4_chiN17",
+        "f0.4_chiN18",
+        "f0.4_chiN19",
+        "f0.4_chiN20",
+        "f0.4_chiN21",
+        "f0.4_chiN22",
+        "f0.4_chiN23",
+        "f0.4_chiN24",
+        "f0.4_chiN25",
+        "f0.4_chiN26",
+        "f0.4_chiN27",
+        "f0.4_chiN28",
+        "f0.4_chiN29",
+        "f0.4_chiN30",
+        "f0.4_chiN31",
+        "f0.4_chiN32",
+        "f0.4_chiN33",
+        "f0.4_chiN34",
+        "f0.4_chiN35",
+        "f0.5_chiN11",
+        "f0.5_chiN12",
+        "f0.5_chiN13",
+        "f0.5_chiN14",
+        "f0.5_chiN16",
+        "f0.5_chiN17",
+        "f0.5_chiN18",
+        "f0.5_chiN19",
+        "f0.5_chiN20",
+        "f0.5_chiN21",
+        "f0.5_chiN22",
+        "f0.5_chiN23",
+        "f0.5_chiN24",
+        "f0.5_chiN26",
+        "f0.5_chiN27",
+        "f0.5_chiN28",
+        "f0.5_chiN29",
+        "f0.5_chiN30",
+        "f0.5_chiN31",
+        "f0.5_chiN32",
+        "f0.5_chiN33",
+        "f0.5_chiN34",
+        "f0.5_chiN35"
+      ],
+      "permitted_evidence_classes": [
+        "production_held_out"
+      ],
+      "state_count": 143
+    },
+    "high_chiN_30_35": {
+      "evidence_class": "production_control",
+      "membership": [
+        {
+          "chiN": 30.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "production",
+        "production_control"
+      ],
+      "state_count": 42
+    },
+    "high_chiN_30_35_diagnostic": {
+      "evidence_class": "oracle_diagnostic",
+      "membership": [
+        {
+          "chiN": 30.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 30.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 31.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 32.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 33.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 34.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 35.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "oracle_diagnostic"
+      ],
+      "resolution_nx": 64,
+      "state_count": 42
+    },
+    "phase_boundary_149": {
+      "ordered_phases": [
+        "BCC",
+        "CYL",
+        "FCC",
+        "GYR",
+        "LAM",
+        "O70"
+      ],
+      "permitted_evidence_classes": [
+        "production_phase_boundary",
+        "topology_inference"
+      ],
+      "state_count": 149,
+      "transition_counts": {
+        "C/O70": 9,
+        "FCC/BCC": 6,
+        "FCC/DIS": 6,
+        "G/C": 22,
+        "G/L": 24,
+        "G/O70": 6,
+        "O70/L": 16,
+        "S/C": 27,
+        "S/DIS": 33
+      }
+    },
+    "strong_segregation_105": {
+      "chiN": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "membership": [
+        {
+          "chiN": 36.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.2
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.25
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.3
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.35
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.4
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.45
+        },
+        {
+          "chiN": 36.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 37.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 38.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 39.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 40.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 41.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 42.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 43.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 44.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 45.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 46.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 47.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 48.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 49.0,
+          "f_A": 0.5
+        },
+        {
+          "chiN": 50.0,
+          "f_A": 0.5
+        }
+      ],
+      "permitted_evidence_classes": [
+        "production_control",
+        "production_strong_segregation"
+      ],
+      "state_count": 105
+    }
+  },
+  "diagnostic_selection": {
+    "frozen_c2": 0.16,
+    "frozen_stratified_balanced_loss": 4.7157055280623394,
+    "full_146_oracle_c2": 0.06,
+    "note": "Candidate summaries are descriptive oracle diagnostics; production remains frozen at c2=0.16.",
+    "oracle_stratified_balanced_loss": 3.9334732500008247,
+    "selection_metric": "stratified_balanced_loss"
+  },
+  "evidence_policy": {
+    "diagnostic_label": "The nx=64 coefficient sweep is an oracle diagnostic and is not a production-model ranking.",
+    "production_label": "Publication metrics use accepted production-resolution ledgers.",
+    "simulation_decision": "No additional simulation is required for the contribution reframing; current evidence passes the factual-record gate.",
+    "topology_label": "Accepted phase-boundary roots are direct production evidence; the ordered-phase set and connectivity are inferences from their transition graph and are not attributed specifically to adaptive stiffness."
+  },
+  "gate_audit": {
+    "aba_fixed_adaptive": {
+      "note": "The adaptive ledger exposes field-converged/accepted gates; the fixed control additionally exposes composition, morphology, cell, and local-minimum gates.",
+      "pass": true,
+      "row_count": 14
+    },
+    "cell_stress_2_state": {
+      "gates": [
+        "internal_minimum",
+        "stress_orientation",
+        "root_stress",
+        "force",
+        "morphology",
+        "provenance"
+      ],
+      "pass": true,
+      "row_count": 4
+    },
+    "coefficient_diagnostic": {
+      "gates": [
+        "stationarity",
+        "phase_identity",
+        "cell_stationarity",
+        "selection_eligible",
+        "local_period_minimum",
+        "not_boundary_limited"
+      ],
+      "pass": true,
+      "row_count": 1314
+    },
+    "common_133_production": {
+      "gates": [
+        "field",
+        "cell_stress",
+        "resolution",
+        "composition",
+        "morphology",
+        "local_period_minimum",
+        "not_boundary_limited"
+      ],
+      "pass": true,
+      "row_count": 665
+    },
+    "fixed_146_production": {
+      "gates": [
+        "field",
+        "cell_stress",
+        "composition",
+        "morphology",
+        "local_period_minimum",
+        "stress_orientation"
+      ],
+      "pass": true,
+      "row_count": 146
+    },
+    "full_146_bvk2_production": {
+      "gates": [
+        "field",
+        "cell_stress",
+        "resolution",
+        "composition",
+        "morphology",
+        "local_period_minimum",
+        "not_boundary_limited"
+      ],
+      "pass": true,
+      "row_count": 146
+    },
+    "held_out_143_bvk2_production": {
+      "gates": [
+        "field",
+        "cell_stress",
+        "resolution",
+        "composition",
+        "morphology",
+        "local_period_minimum",
+        "not_boundary_limited"
+      ],
+      "pass": true,
+      "row_count": 143
+    },
+    "phase_boundary_149": {
+      "gates": [
+        "accepted_status",
+        "boundary_bracket_claim_kind",
+        "positive_bracket_width",
+        "finite_coordinates",
+        "exact_transition_manifest",
+        "nonempty_provenance"
+      ],
+      "pass": true,
+      "row_count": 149
+    },
+    "scft_phase_reference": {
+      "gates": [
+        "SCFT_identity",
+        "exact_transition_manifest",
+        "finite_coordinates",
+        "nonempty_provenance",
+        "literature_reference_not_production_root"
+      ],
+      "pass": true,
+      "row_count": 1334
+    },
+    "strong_segregation_105": {
+      "gates": [
+        "exact_state_manifest",
+        "accepted_status",
+        "field",
+        "cell_stress",
+        "resolution",
+        "composition",
+        "morphology",
+        "local_period_minimum",
+        "not_boundary_limited",
+        "aggregate_reconstruction",
+        "validation_report"
+      ],
+      "pass": true,
+      "row_count": 735
+    }
+  },
+  "generator": "scripts/generate_bvk_contribution_claim_evidence.py",
+  "schema": "bvk-contribution-claim-evidence-v1",
+  "sources": [
+    {
+      "evidence_class": "production",
+      "path": "results/liu2019_stress_free_period_map/summary.csv",
+      "role": "adaptive and comparator lamellar map",
+      "sha256": "b935ea1ca7cf3624d2e3b232706ffb763793c087b4a986a95efdfc2bc0fb3536"
+    },
+    {
+      "evidence_class": "production_control",
+      "path": "results/bvk_fixed_stiffness_period_map_nx256/summary.csv",
+      "role": "fixed-stiffness lamellar map",
+      "sha256": "23075cb6ee7ec4d14e48b42089bd29f26f68a9237724783667f5f729b26a6d82"
+    },
+    {
+      "evidence_class": "production_mechanism",
+      "path": "results/lamellar_cell_stress_mechanism/summary.csv",
+      "role": "matched cell-stress ablation",
+      "sha256": "65518c4e9af4aab889321913e9a2faa6fa8849509a6157967b361028af26c0fc"
+    },
+    {
+      "evidence_class": "oracle_diagnostic",
+      "path": "results/bvk2_global_c2_refit/stage2_rows.csv",
+      "role": "historical nx=64 coefficient sweep",
+      "sha256": "ed717613233f083702da39da7ab9ae53555913d45f7c8f305f91cb8f3f40b33d"
+    },
+    {
+      "evidence_class": "oracle_diagnostic",
+      "path": "results/bvk2_global_c2_refit/candidate_ranking.csv",
+      "role": "stratified coefficient ranking",
+      "sha256": "1b680d640ea0a0674414f8cd753697f783a62169b79714d6cc18c7c39ecaa358"
+    },
+    {
+      "evidence_class": "production_transfer",
+      "path": "results/bvk2_aba_comprehensive_validation/benchmark_summary.csv",
+      "role": "adaptive ABA benchmark",
+      "sha256": "fe890e94ed44ee5a1cbe5dd8608d583e3f9f63e4066d08f2a1c213c83f636e4b"
+    },
+    {
+      "evidence_class": "production_control",
+      "path": "results/bvk2_aba_fixed_stiffness_validation/summary.csv",
+      "role": "fixed-stiffness ABA benchmark",
+      "sha256": "e32430a11351d713672aa3fd5615d7b46985554f7551c2a72509299be474aaec"
+    },
+    {
+      "evidence_class": "production_strong_segregation",
+      "path": "results/bvk_strong_segregation_extension/summary.csv",
+      "role": "accepted 105-state strong-segregation map",
+      "sha256": "ca9b605df17673344ee93b48b2f2e04aba25feecb6d5cd0883b11dcff8d2fc66"
+    },
+    {
+      "evidence_class": "production_control",
+      "path": "results/bvk_strong_segregation_extension/fixed_stiffness_summary.csv",
+      "role": "matched fixed-stiffness strong-segregation map",
+      "sha256": "c65d57a2cb39583507adbb39d5a110d3a75eaaf342f61f5bca870804f5e58fc6"
+    },
+    {
+      "evidence_class": "production_strong_segregation",
+      "path": "results/bvk_strong_segregation_extension/aggregate.csv",
+      "role": "independently assembled strong-segregation aggregates",
+      "sha256": "f54c7cb930acca1ad35e8673ed79eb6a51d59faf0cd17b2dcf1819a093385398"
+    },
+    {
+      "evidence_class": "production_strong_segregation",
+      "path": "results/bvk_strong_segregation_extension/validation_report.json",
+      "role": "strong-segregation validation contract",
+      "sha256": "3bac9fb4b59497f9ea3df35a91b7295cbecc5ff1a09a3e3d02d7fc39ef5df8f4"
+    },
+    {
+      "evidence_class": "production_phase_boundary",
+      "path": "results/bvk2_publication_phase_diagram/accepted_phase_boundaries.csv",
+      "role": "accepted AQCE phase-boundary roots",
+      "sha256": "e1bd7408c4c65a3f6d001f7515557b75904676198c86dcb7c81553f1e700c454"
+    },
+    {
+      "evidence_class": "literature_reference",
+      "path": "results/bvk2_publication_phase_diagram/scft_reference_boundaries.csv",
+      "role": "vector SCFT phase-boundary reference",
+      "sha256": "c2130bd398e7342c73536b6c5069b1ad371ce6bf3d81d367b8abc7a4f33d5620"
+    }
+  ]
+}

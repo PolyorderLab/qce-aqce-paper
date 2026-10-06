@@ -1,0 +1,3 @@
+schema,architecture,chiN,period_rg,capped_max_iterations,capped_iterations,reference_max_iterations,reference_iterations,capped_energy_density,reference_energy_density,absolute_energy_density_difference,profile_rms_difference,capped_residual_l2,capped_residual_linf,passed
+bvk2-scft-fixedcell-performance-v1,AB,21.0,4.2,50,53,4000,4001,-1.1137490384712203,-1.1137490384712192,1.035992347055633e-15,4.220208639886166e-10,1.0621122440964325e-5,3.1607628303932656e-5,true
+bvk2-scft-fixedcell-performance-v1,ABA,31.0,2.9,50,53,4000,3469,-1.1893438352698749,-1.189343835269875,3.7510067738221197e-16,4.96146479953183e-11,1.959302705022703e-6,7.847136109667002e-6,true
